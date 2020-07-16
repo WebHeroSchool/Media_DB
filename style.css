@@ -51,7 +51,7 @@ body {
   }
 }
 
-@media (max-width : 640px) {
+/* @media (max-width : 640px) {
   .header__burger {
     display: block;
     position: relative;
@@ -127,7 +127,7 @@ body {
 
 #header__toggle:checked ~ .header__burger span {
   transform: scale(0);
-}
+} */
 
 @media (min-width : 641px) and (max-width : 960px) {
   .title {
