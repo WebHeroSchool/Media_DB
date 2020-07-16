@@ -2,15 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <title>Media query</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-
+    <header class="header">
+      <div class="container">
+        <div class="header__body">
+          <input id="header__toggle" type="checkbox">
+          <label class="header__burger" for="header__toggle">
+            <span></span>
+          </label>
+          <nav class="header__menu">
+            <a href="#">Главная </a>
+            <a href="#"> Продукты </a>
+            <a href="#"> О нас </a>
+            <a href="#">Контакты</a>
+          </nav>
+        </div>
+      </div>
     </header>
     <main>
-
+      <h1 class="title">Мы рады приветствовать вас на нашем сайте!</h1>
     </main>
   </body>
 </html>
