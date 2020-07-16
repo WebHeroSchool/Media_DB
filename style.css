@@ -3,6 +3,11 @@ body {
   font-family:arial;
   margin: 0;
 }
+
+.title {
+  color:DimGray;
+}
+
 .header {
   background:YellowGreen;
 }
